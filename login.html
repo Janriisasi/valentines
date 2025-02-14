@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	<link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+	<div class="container">
+	<h2>Happy Valentines, Kimberly!</h2>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Our callsign">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="The date you said YES to me" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <p id="errorMessage" style="display:none; color:red;"></p>
+</div>
+</body>
+</html>
